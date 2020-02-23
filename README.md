@@ -2,14 +2,15 @@
 아무데서나 접근 가능한 매우 전역적인 변수를 만들고 접근할수 있어요
 
 ## Install
-$ npm install very_global
-
-## Install 2
 ```html
 <script src="https://kstost.github.io/very_global/index.js"></script>
 ```
+```js
+const vg = new VeryGlobal();
+```
 
-## Import
+## Install 2
+$ npm install very_global
 ```js
 import vg from 'very_global'
 ```
