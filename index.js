@@ -31,5 +31,7 @@ VeryGlobal.prototype = {
         return data;
     },
 };
-
-export default new VeryGlobal();
+if (typeof module === "object" && typeof module.exports === "object") {
+    // export default new VeryGlobal();
+    module.exports = new VeryGlobal();
+}
