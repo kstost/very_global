@@ -1,6 +1,6 @@
 {
   "name": "very_global",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "store global data you can reach from anywhere",
   "main": "index.js",
   "repository": {

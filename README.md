@@ -15,6 +15,12 @@ $ npm install very_global
 import vg from 'very_global'
 ```
 
+## Install 3 (Inline on console)
+```js
+((cb, url) => { let el = document.createElement('script'); el.onload = cb; el.src = url; document.head.appendChild(el); })(() => console.log('Importing complete'),
+  'https://kstost.github.io/very_global/index.js');
+```
+
 ## Usage
 ```js
 vg.set('mydata1', 123);
