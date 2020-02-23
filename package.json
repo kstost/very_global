@@ -1,0 +1,15 @@
+{
+  "name": "very_global",
+  "version": "0.0.1",
+  "description": "store global data you can reach from anywhere",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kstost/very_global.git"
+  },
+  "keywords": [
+    "global"
+  ],
+  "author": "Kim seung tae <monogatree@gmail.com>",
+  "license": "MIT"
+}
