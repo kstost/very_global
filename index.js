@@ -1,8 +1,13 @@
 function VeryGlobal() {
-    if (!window.custom_box) {
-        window.custom_box = {};
+    let g_object;
+    try { g_object = window; } catch { }
+    try { g_object = global; } catch { }
+    if (g_object) {
+        if (!g_object.custom_box) {
+            g_object.custom_box = {};
+        }
+        this.storage = g_object.custom_box;
     }
-    this.storage = window.custom_box;
 }
 VeryGlobal.prototype = {
     clear() {
